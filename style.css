@@ -54,12 +54,75 @@
     width: 150px;
     text-align: center;
 }
+.in2
+{
+    background-color: #07AF91;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    width: 150px;
+    text-align: center;
+}
 .vivo
 {
     display: block;
     color: white;
     margin-left: 300px;
     margin-top: 150px;
+}
+.tech
+{
+    background-color: #07AF91;
+     padding: 5px 10px; 
+     border-radius: 1px;
+      width: 450px;
+     text-align: center;
+}
+.start
+{
+    display: none;
+}
+.flex1
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 200pxp;
+    
+}
+.flex2
+{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 200pxp;
+    
+}
+.ptext1
+{
+    width: 500px;
+    color: grey;
+}
+.options
+{
+    color: #1178B2;
+}
+.divfull
+{
+    
+    width: 1000px;
+    margin: auto;
+}
+.divfull1
+{
+    
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+.sec2
+{
+    margin-top: 80px;
 }
 
 
@@ -75,5 +138,69 @@
     .header
     {
         justify-content: space-around;
+    }
+    .vivo
+    {
+        margin-left: 10px;
+    }
+    .vivo, h1
+    {
+        font-size: 25px;
+        text-align: center;
+    }
+    .tech
+    {
+        width: 280px;
+        margin: auto;
+    }
+    .in1
+    {
+        width: 200px;
+        margin: auto;
+    }
+    .start
+    {
+        display: block;
+    }
+    .open
+    {
+        display: none;
+    }
+    .flex1
+    {
+        flex-direction: column;
+        row-gap: 50px;
+        text-align: center;
+    }
+    .flex2
+    {
+        flex-direction: column;
+        row-gap: 50px;
+        text-align: center;
+
+    }
+    .ptext1
+    {
+    width: 300px;
+    color: grey;
+    margin: auto;
+    text-align: center;
+    
+    }
+    .sec2
+    {
+        width: 100%;
+    }
+    .in2
+    {
+        margin: auto;
+    }
+    .divfull, .divfull1
+    {
+        width: 100%;
+    }
+    .sec2imgs
+    {
+        width: 400px;
     }
 }
