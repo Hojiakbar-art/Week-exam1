@@ -365,6 +365,55 @@
     margin: auto;
     margin-top: 60px;
 }
+.fleximg
+{
+    display: flex;
+    align-items: center;
+
+}
+.sec8
+{
+    width: 100%;
+    height: 300px;
+    background-image: url(./Group\ 796.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 60px;
+}
+.putin
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.helloimg
+{
+    width: 150px;
+    height: 80px;
+}
+.presult
+{
+    width: 400px;
+    color: white;
+}
+.hputin
+{
+    width: 400px;
+    color: white;
+}
+.in20
+{
+    background-color: #07AF91;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
 
 
 
@@ -548,5 +597,31 @@
         flex-direction: column;
         text-align: center;
     }
-    
+    .sec8
+    {
+        flex-direction: column;
+        row-gap: 30px;
+        height: 700px;
+    }
+    .aaaarrrr
+    {
+        margin: auto;
+        
+    }
+    .putin
+    {
+        margin: auto;
+    }
+    .hputin
+    {
+        width: 300px;
+    }
+    .presult
+    {
+        width: 300px;
+    }
+    .in20
+    {
+        margin: auto;
+    }
 }
