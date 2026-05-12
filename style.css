@@ -188,6 +188,101 @@
     margin: auto;
 
 }
+.davlatho
+{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    
+
+}
+.countries
+{
+    padding: 20px;
+    background-color: #EEF1F4;
+    border-right: 1px solid grey;
+    width: 250px;
+    text-align: center;
+}
+.country2
+{
+    padding: 20px;
+    background-color: #EEF1F4;
+    width: 150px;
+    text-align: center;
+    border-radius: 7px;
+
+
+}
+.country1
+{
+    padding: 20px;
+    background-color: #88BBD8;
+    border-radius: 7px;
+    width: 150px;
+    text-align: center;
+    
+
+}
+.kub
+{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 1px;
+    border-radius: 15px;
+    background-color: white;
+}
+.kubs
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.kubs2
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.east
+{
+    width: 1000px;
+    height: 400px;
+    background-image: url(./Vector\ \(5\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.whole
+{
+    
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+.Fatima
+{
+    width: 500px;
+    height: 400px;
+}
+.fullkub
+{
+    
+    width: 500px;
+    height: 300px;
+}
+.hwich
+{
+    color: #1178B2;
+}
+
 
 
 
@@ -288,5 +383,53 @@
     {
         width: 300px;
     }
+    .east
+    {
+        flex-direction: column;
+        row-gap: 20px;
+        width: 100%;
+        
+    }
+    .fullkub
+    {
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .Fatima
+    {
+        width: 95%;
+        margin: auto;
+    }
+    .countries
+    {
+        width: 60px;
+    }
+    .country1
+    {
+        width: 60px;
+    }
+    .country2
+    {
+        width: 60px;
+    }
+    .hwich
+    {
+        display: none;
+    }
+    .whole
+    {
+        width: 100%;
+    }
+    .sec5
+    {
+        width: 100%;
+    }
+    .davlatho
+    {
+        width: 95%;
+        margin: auto;
+    }
+    
     
 }
