@@ -414,6 +414,21 @@
     width: 200px;
     text-align: center;
 }
+.divfull11
+{
+    
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 5px 1px;
+}
+.romanimgs
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
 
 
 
@@ -623,5 +638,15 @@
     .in20
     {
         margin: auto;
+    }
+    .divfull11
+    {
+        box-shadow: none;
+        width: 100%;
+    }
+    .romanimgs
+    {
+        flex-direction: column;
+        row-gap: 20px;
     }
 }
