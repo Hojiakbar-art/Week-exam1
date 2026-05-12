@@ -447,6 +447,23 @@
     margin: auto;
     margin-top: 50px;
 }
+form
+{
+    background-color: white;
+    width: 400px;
+    height: 270px;
+    margin-top: 20px;
+    border-radius:20px ;
+    
+}
+input
+{
+    height: 30px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
 
 
 
@@ -681,5 +698,14 @@
     {
         width: 91%;
         text-align: center;
+    }
+    .imgmena
+    {
+        width: 100%;
+    }
+    form
+    {
+        width: 95%;
+        margin: auto;
     }
 }
