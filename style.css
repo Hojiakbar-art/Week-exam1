@@ -429,6 +429,24 @@
     justify-content: center;
     margin-top: 40px;
 }
+.mena
+{
+    box-shadow: 0px 0px 5px 1px;
+    border-radius: 15px;
+}
+.menaboxs
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+.meenaa
+{
+    width: 1250px;
+    margin: auto;
+    margin-top: 50px;
+}
 
 
 
@@ -648,5 +666,20 @@
     {
         flex-direction: column;
         row-gap: 20px;
+    }
+    .menaboxs
+    {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+    .meenaa
+    {
+        width: 100%;
+    }
+    .mena
+    {
+        width: 91%;
+        text-align: center;
     }
 }
